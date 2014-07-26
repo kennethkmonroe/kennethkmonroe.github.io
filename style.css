@@ -1,0 +1,47 @@
+body {
+  color: #444;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 30px;
+  margin: 100px auto;
+  max-width: 1200px;
+}
+
+h1 {
+	font-size: 120px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+a, li {
+  color: #666699;
+  text-decoration: none;  
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.links {
+	margin: 50px 0;
+}
+
+ul, li {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+li:after {
+	content: " //";
+}
+
+li.last-child:after {
+	content: "";
+}
+
+img {
+	width: 100%;
+}
