@@ -12,6 +12,14 @@ h1 {
 	text-align: center;
 }
 
+h1 a:hover {
+  text-decoration: none;
+}
+
+h1 a {
+  color: #444;
+}
+
 a, li {
   color: #666699;
   text-decoration: none;  
