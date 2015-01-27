@@ -34,14 +34,52 @@ li {
 	display: inline;
 }
 
-li:after {
+.links li:after {
 	content: " //";
 }
 
-li.last-child:after {
+.links li.last-child:after {
 	content: "";
 }
 
 img {
 	width: 100%;
+  text-align: center;
 }
+
+img.aboutpic {
+  width: 45%;
+  float: left;
+  padding: 10px;
+}
+
+div.about {
+  width: 45%;
+  text-align: left;
+  float: right;
+  padding: 10px;
+}
+
+p.breakword {
+  word-wrap: break-word;
+}
+
+ul.contact {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
